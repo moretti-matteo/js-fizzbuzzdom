@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #083b4c;
+    font-family: verdana;
+}
+
+.container{
+    margin:auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:25px;
+}
+
+.elem{
+    line-height: 100px;
+    text-align: center;
+    width:100px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.blue{
+    background-color: #1389b2;
+
+}
+
+.green{
+    background-color: #0bd6a1;
+
+}
+
+.yellow{
+    background-color: #ffd166;
+
+}
+
+.red{
+    background-color: #f0466f;
+}
